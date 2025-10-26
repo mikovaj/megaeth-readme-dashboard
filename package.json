@@ -1,0 +1,11 @@
+{
+  "name": "megaeth-readme-dashboard",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "update": "node src/update-stats.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.4.0"
+  }
+}
