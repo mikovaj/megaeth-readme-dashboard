@@ -1,9 +1,12 @@
 name: Update MegaETH README Stats
- 
+
 on:
   schedule:
-    - cron: '0 * * * *'   # run at minute 0 of every hour (UTC)
-  workflow_dispatch:      # allows manual run from Actions tab
+    - cron: '0 * * * *'   # every hour (UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-readme:
@@ -11,16 +14,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 18
 
-     - name: Install deps
-  run: npm install
+      - name: Install deps
+        run: npm install
 
       - name: Run update script
         env:
