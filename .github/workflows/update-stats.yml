@@ -19,8 +19,8 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install deps
-        run: npm ci
+     - name: Install deps
+  run: npm install
 
       - name: Run update script
         env:
