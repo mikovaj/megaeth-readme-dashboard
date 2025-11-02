@@ -13,9 +13,9 @@ Made by [@mikovaj](https://github.com/mikovaj)
 This repo automatically updates this section with live MegaETH testnet metrics (block height, TPS approximate, gas price) using GitHub Actions.
 
 <!-- STATS_START -->
-**Updated:** 2025-11-02 01:46:42.288 UTC
-- Latest EVM block: **20866927**
-- TPS (approx, 10s window): **32.70**
+**Updated:** 2025-11-02 03:16:39.828 UTC
+- Latest EVM block: **20872325**
+- TPS (approx, 10s window): **37.30**
 - Gas price: **0.0010 gwei**
 - Avg base fee (20): **0.0010 gwei**
 <!-- STATS_END -->
